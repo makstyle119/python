@@ -1,0 +1,9 @@
+services:
+  python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true # Keeps the container input open
+    tty: true        # Enables interaction with the console
+    volumes:
+      - .:/usr/src/app # Mounts your local code for live updates
