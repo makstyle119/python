@@ -686,3 +686,7 @@ g.play()
 - `#` - this is a single line comment = use for single line comments
 - Python is caseSensitive, means name and Name are two other things - `kabab case` is recommended in python, eg: my_app.
 - In Python indentation is very important so don't mess with it otherwise you will be mess
+
+## Resources
+I start my journey using this cool stuff so shout to them:
+- https://www.youtube.com/watch?v=eWRfhZUzrAc&t=12581s
