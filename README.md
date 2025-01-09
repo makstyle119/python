@@ -186,6 +186,10 @@ docker compose run python-app
                 - `__and__` # for &
                 - `__or__` # for |
                 - `__xor__` # for ^
+        - class have few built in method
+            - `type(class_instance/object)` # to check the class Name of the instance
+            - `isinstance(class_instance/object, class)` # first argument will be the object and second will be class and this will return if the object is a class or not (boolean)
+            - `issubclass(sub_class, class)` # first argument will be the sub_class and second will be class and this will return if the sub_class inherit from the class or not (boolean)
     - `accepting command line arguments`
         - `name = argv[1]` # this is how you can get the command line arguments - argv is a list of command line arguments - part of sys module - argv[0] is the name of the file - argv[1] is the first argument and so on
     - `lambda num : num * 2` #  # this is how you can define a lambda function - lambda functions are anonymous functions - they are used when you need a function for a short period of time
