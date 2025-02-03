@@ -12,14 +12,14 @@ docker compose run python-app
 ## Folder Structure:
 
 ```
-|- lectures
-    |- 001
-        |- basic.py
-|- projects
-    |- 001
-        |- rock_paper_scissors_game.py
-    |- 002
-        |- Card.py
+├── 📂 lectures
+    ├── 📂 001
+        ├── 📄 basic.py
+├── 📂 projects
+    ├── 📂 001
+        ├── 📄 rock_paper_scissors_game.py
+    ├── 📂 002
+        ├── 📄 Card.py
 ```
 
 ## Code Explaining
